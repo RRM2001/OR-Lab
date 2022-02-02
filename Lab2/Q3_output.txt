@@ -1,0 +1,102 @@
+Enter type of problem :
+Minimization : 0
+Maximization : 1
+1
+Enter total no. of variables :
+3
+Enter objective function coeffecients (variable wise) :
+12 15 14
+Enter total no. of constraints :
+3
+Enter the LHS of the constraints :
+-1 -1 0
+0 -1 2
+1 1 1
+Enter type of constraints :
+<= : 0
+ = : 1
+>= : 2
+0 0 0
+Enter RHS of each constraint :
+0 0 100
+ 
+MENU
+1. List of all basic feasible solutions
+2. Initial Simplex table
+3. List of non basic variables in the initial table
+4. Basic variables with minimum ratios in the first iteration
+5. Simplex table of the 2nd iteration
+6. EXIT
+Enter your choice : 1
+Basic Feasible Solutions : 
+Solution 1
+x1 : 0	x2 : 0	x3 : 0	x4 : 0	x5 : 0	x6 : 100	
+Solution 5
+x1 : 0	x2 : 0	x3 : 0	x4 : 0	x5 : 0	x6 : 100	
+Solution 8
+x1 : 0	x2 : 0	x3 : 0	x4 : 0	x5 : 0	x6 : 100	
+Solution 11
+x1 : 0	x2 : 0	x3 : 0	x4 : 0	x5 : 0	x6 : 100	
+Solution 14
+x1 : 0	x2 : 0	x3 : 0	x4 : 0	x5 : 0	x6 : 100	
+Solution 17
+x1 : 0	x2 : 0	x3 : 0	x4 : 0	x5 : 0	x6 : 100	
+ 
+MENU
+1. List of all basic feasible solutions
+2. Initial Simplex table
+3. List of non basic variables in the initial table
+4. Basic variables with minimum ratios in the first iteration
+5. Simplex table of the 2nd iteration
+6. EXIT
+Enter your choice : 2
+ 
+Initial Simplex table
+ 	x1	x2	x3	x4	x5	x6	RHS
+Z	-12.00	-15.00	-14.00	0.00	0.00	0.00	0.00	
+x4	-1.00	-1.00	0.00	1.00	0.00	0.00	0.00	
+x5	0.00	-1.00	2.00	0.00	1.00	0.00	0.00	
+x6	1.00	1.00	1.00	0.00	0.00	1.00	100.00	
+ 
+MENU
+1. List of all basic feasible solutions
+2. Initial Simplex table
+3. List of non basic variables in the initial table
+4. Basic variables with minimum ratios in the first iteration
+5. Simplex table of the 2nd iteration
+6. EXIT
+Enter your choice : 3
+ 
+List of non basic variables in the initial table :	x1	x2	x3	
+ 
+MENU
+1. List of all basic feasible solutions
+2. Initial Simplex table
+3. List of non basic variables in the initial table
+4. Basic variables with minimum ratios in the first iteration
+5. Simplex table of the 2nd iteration
+6. EXIT
+Enter your choice : 4
+ 
+Basic variables with minimum ratios in the first iteration :
+x4	x5	x2	
+NaN	NaN	100.00	
+ 
+MENU
+1. List of all basic feasible solutions
+2. Initial Simplex table
+3. List of non basic variables in the initial table
+4. Basic variables with minimum ratios in the first iteration
+5. Simplex table of the 2nd iteration
+6. EXIT
+Enter your choice : 5
+Problem is solved in less than 2 iterations.
+ 
+MENU
+1. List of all basic feasible solutions
+2. Initial Simplex table
+3. List of non basic variables in the initial table
+4. Basic variables with minimum ratios in the first iteration
+5. Simplex table of the 2nd iteration
+6. EXIT
+Enter your choice : 6

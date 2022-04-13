@@ -1,0 +1,67 @@
+Number of constraints : 2
+Number of variables : 4
+Enter Constraint 0 coefficients: 
+3 -1 1 0 12
+Enter Constraint 1 coefficients: 
+3 11 0 1 66
+
+Enter whether the equations are <= type(1), >= type(2), or = type(3): 
+Equation 0: 3
+Equation 1: 3
+
+Normal Simplex method cant be used to solve this system, using BIG_M method
+3 -1 1 0 1 0 12 
+3 11 0 1 0 1 66 
+slack variables: 
+surplus variables: 
+artifiical variables: 5 6 
+
+Enter the objective function: 
+3 -4 0 0
+
+Does the objective_fn have to be maximised(1) or minimised(0)? : 0
+objective_fn_size: 6
+n: 6
+The coeficient matrix: 
+3 -1 1 0 1 0 12 
+3 11 0 1 0 1 66 
+The objective function: 
+-3 4 -0 -0 -1e+06 -1e+06 
+
+
+
+
+Iteration: 0
+The Tableau: 
+-1e+06 6 3 -1 1 0 1 0 12 
+-1e+06 7 3 11 0 1 0 1 66 
+Deviations: 6e+06 1e+07 1e+06 1e+06 0 0 
+leaving_var_row_index: 1, entering_var_col_index: 3
+
+
+Iteration: 1
+The Tableau: 
+-1e+06 6 3.27273 0 1 0.0909091 1 0.0909091 18 
+4 3 0.272727 1 0 0.0909091 0 0.0909091 6 
+Deviations: 3.27272e+06 0 1e+06 90908.7 0 -909091 
+leaving_var_row_index: 0, entering_var_col_index: 2
+
+
+Iteration: 2
+The Tableau: 
+-3 2 1 0 0.305556 0.0277778 0.305556 0.0277778 5.5 
+4 3 0 1 -0.0833333 0.0833333 -0.0833333 0.0833333 4.5 
+Deviations: 0 0 1.25 -0.25 -999999 -1e+06 
+leaving_var_row_index: 0, entering_var_col_index: 4
+
+
+Iteration: 3
+The Tableau: 
+-0 4 3.27273 0 1 0.0909091 1 0.0909091 18 
+4 3 0.272727 1 0 0.0909091 0 0.0909091 6 
+Deviations: -4.09091 0 -0 -0.363636 -1e+06 -1e+06 
+Reached the termination state
+
+The Optimisation function is optimised at the point : x3 = 18, x2 = 6, Rest all xis=0
+The value of the objective function at this point is : -24
+The solution found is a valid integral solution

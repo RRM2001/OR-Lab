@@ -1,0 +1,108 @@
+Enter type of problem :
+Minimization : -1
+Maximization : 1
+1
+Enter total no. of variables :
+2
+Enter objective function coeffecients (variable wise) :
+7 3
+Enter total no. of constraints :
+4
+Enter the LHS of the constraints :
+1 2
+3 1
+1 0
+0 1
+Enter type of constraints :
+<= : 0
+ = : 1
+>= : 2
+2 0 0 0
+Enter RHS of each constraint :
+3 5 2.5 1.5
+MENU
+1. List of all basic feasible solutions
+2. Number of iterations to solve the problem
+3. List of all non basic variables with net evaluation on the ith iteration
+4. List of basic variables with minimum ratios on the ith iteration
+5. Simplex table on ith iteration
+6. Solution
+7. EXIT
+Enter your choice : 1
+Basic Feasible Solutions : 
+Solution 1
+x1 : 0	x2 : 0	x3 : 0	x4 : 3.00	x5 : 5.00	x6 : 2.50	x7 : 1.50	
+Solution 6
+x1 : 0	x2 : 1.50	x3 : 0	x4 : 0	x5 : 3.50	x6 : 2.50	x7 : 0.00	
+MENU
+1. List of all basic feasible solutions
+2. Number of iterations to solve the problem
+3. List of all non basic variables with net evaluation on the ith iteration
+4. List of basic variables with minimum ratios on the ith iteration
+5. Simplex table on ith iteration
+6. Solution
+7. EXIT
+Enter your choice : 2
+Number of iterations : 3
+MENU
+1. List of all basic feasible solutions
+2. Number of iterations to solve the problem
+3. List of all non basic variables with net evaluation on the ith iteration
+4. List of basic variables with minimum ratios on the ith iteration
+5. Simplex table on ith iteration
+6. Solution
+7. EXIT
+Enter your choice : 3
+Enter iteration number : 2
+Non-basic variables :
+x3	x4	x5	
+Evaluation at this iteration : 12.20
+MENU
+1. List of all basic feasible solutions
+2. Number of iterations to solve the problem
+3. List of all non basic variables with net evaluation on the ith iteration
+4. List of basic variables with minimum ratios on the ith iteration
+5. Simplex table on ith iteration
+6. Solution
+7. EXIT
+Enter your choice : 4
+Enter iteration number : 2
+Basic variables with their ratios :
+x2	x1	x6	x7	
+NA	7.00	NA	1.17	
+MENU
+1. List of all basic feasible solutions
+2. Number of iterations to solve the problem
+3. List of all non basic variables with net evaluation on the ith iteration
+4. List of basic variables with minimum ratios on the ith iteration
+5. Simplex table on ith iteration
+6. Solution
+7. EXIT
+Enter your choice : 5
+Enter iteration number : 2
+ 	x1	x2	x3	x4	x5	x6	x7	RHS
+				1.00M					
+Z	0.00	0.00	-0.40	0.40	2.20	0.00	0.00	12.20	
+x2	0.00	1.00	-0.60	0.60	-0.20	0.00	0.00	0.80	
+x1	1.00	0.00	0.20	-0.20	0.40	0.00	0.00	1.40	
+x6	0.00	0.00	-0.20	0.20	-0.40	1.00	0.00	1.10	
+x7	0.00	0.00	0.60	-0.60	0.20	0.00	1.00	0.70	
+MENU
+1. List of all basic feasible solutions
+2. Number of iterations to solve the problem
+3. List of all non basic variables with net evaluation on the ith iteration
+4. List of basic variables with minimum ratios on the ith iteration
+5. Simplex table on ith iteration
+6. Solution
+7. EXIT
+Enter your choice : 6
+Optimal solution reached : 12.67
+MENU
+1. List of all basic feasible solutions
+2. Number of iterations to solve the problem
+3. List of all non basic variables with net evaluation on the ith iteration
+4. List of basic variables with minimum ratios on the ith iteration
+5. Simplex table on ith iteration
+6. Solution
+7. EXIT
+Enter your choice : 7

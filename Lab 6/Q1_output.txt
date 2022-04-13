@@ -1,0 +1,55 @@
+Enter type of problem :
+Minimization : 1
+Maximization : -1
+-1
+Enter total no. of variables :
+3
+Enter objective function coeffecients (variable wise) :
+2 3 1
+Enter total no. of constraints :
+3
+Enter the LHS of the constraints :
+1 1 1
+2 1 -1
+0 -1 1
+Enter type of constraints :
+<= : 0
+ = : 1
+>= : 2
+0 2 2
+Enter RHS of each constraint :
+40 10 10
+Initial table :
+ 	x1	x2	x3	x4	x5	x6	x7	RHS
+Z	-2.00	-3.00	-1.00	0.00	0.00	0.00	0.00	0.00	
+x5	-1.00	-1.00	-1.00	-1.00	1.00	0.00	0.00	-40.00	
+x6	-2.00	-1.00	1.00	0.00	0.00	1.00	0.00	-10.00	
+x7	-0.00	1.00	-1.00	0.00	0.00	0.00	1.00	-10.00	
+
+
+
+Iteration 1
+
+Entering variable : x3
+Leaving variable : x5
+Objective value : 40.00
+
+Iteration 2
+
+Entering variable : x1
+Leaving variable : x6
+Objective value : 56.67
+
+Iteration 3
+
+Entering variable : x2
+Leaving variable : x7
+Objective value : 70.00
+
+Iteration 4
+
+
+
+
+FINAL SOLUTION
+Optimal value : 70.00

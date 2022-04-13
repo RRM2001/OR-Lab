@@ -1,0 +1,24 @@
+Enter type of problem :
+Minimization : -1
+Maximization : 1
+1
+Enter total no. of variables :
+3
+Enter objective function coeffecients (variable wise) :
+2 20 -10
+Enter total no. of constraints :
+2
+Enter the LHS of the constraints :
+2 20 4
+6 20 4
+Enter type of constraints :
+<= : 0
+ = : 1
+>= : 2
+0 1
+Enter RHS of each constraint :
+15 20
+x1 = 2
+x2 = 0
+x3 = 2
+Z = -16
